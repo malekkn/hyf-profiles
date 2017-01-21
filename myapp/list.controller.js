@@ -16,6 +16,7 @@ function listController (listService) {
         vm.service.role = element.role;
         vm.service.linkedIn = element.linkedInUrl;
         vm.service.picUrl = element.pictureUrl;
+
     };
 
 }	

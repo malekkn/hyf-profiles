@@ -1,6 +1,6 @@
 <div>
-    <div ng-repeat="element in listCtrl.list">
-        <span class="">{{ element.name }}</span>
-        <a class="" href="#" ng-click="listCtrl.record(element)">See more</a> 
+    <div class="border" ng-repeat="element in listCtrl.list">
+        <span>{{ element.name }}</span>
+        <a id="more" href="#" ng-click="listCtrl.record(element)">See more</a> 
     </div>
 </div>

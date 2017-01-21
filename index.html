@@ -1,6 +1,8 @@
 <html>
 
 <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>    
     <script src="myapp/sub-app.js"></script>
     <script src="myapp/list.controller.js"></script>
@@ -12,10 +14,11 @@
 </head>
 
 <body ng-app="myApp">
-    <list-component></list-component>
+    <div id="wrapper">
+        <list-component id="list"></list-component>
     <br>
-    <profile-component></profile-component>
-
+        <profile-component id="profile"></profile-component>
+    </div>
 </body>    
     
     
